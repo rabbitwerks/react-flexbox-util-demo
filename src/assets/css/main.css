@@ -1,0 +1,14 @@
+html {
+  font-size: 20px;
+}
+
+#root {
+  height: 100vh;
+}
+
+.App {
+  height: 100vh;
+  text-align: center;
+  background-color: #282c34;
+  color: #8fd8bf;
+}
