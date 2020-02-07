@@ -2,6 +2,7 @@ html {
   font-size: 20px;
 }
 
+
 #root {
   height: 100vh;
 }
@@ -11,4 +12,5 @@ html {
   text-align: center;
   background-color: #282c34;
   color: #8fd8bf;
+  padding: 0 1.5rem;
 }
