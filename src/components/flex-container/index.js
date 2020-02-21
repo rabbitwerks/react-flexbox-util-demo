@@ -7,16 +7,17 @@ const styles = {
   }
 }
 
+const flexItemArray = [0, 1, 2, 3, 4];
+
 function FlexContainer() {
+
+  const flexItemCount = flexItemArray.map(item => <FlexItemGroup key={ item } />)
+
   return (
     <div 
       className="flex-container f1 fxbx fg3 spc-ctr" 
       style={styles.flexContainer}>
-      <FlexItemGroup flex="f1" alertMe={() => alert('hello youtube and twitch') }/>
-      <FlexItemGroup flex="f2"/>
-      <FlexItemGroup flex="f1"/>
-      <FlexItemGroup flex="f3"/>
-      <FlexItemGroup flex="f2"/>
+        { flexItemCount }
     </div>
   )
 }

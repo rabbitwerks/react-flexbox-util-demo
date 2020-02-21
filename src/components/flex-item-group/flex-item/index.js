@@ -7,15 +7,15 @@ const styles = {
   }
 }
 
-function FlexItem(props) {
+function FlexItem({ flexAmount }) {
   return (
     <div
-      className={`${props.flex} fxbx spc-ctr`}
+      className={`fxbx spc-ctr`}
       style={styles.flexItem}
-      onClick={props.alertMe}>
-      <span>
-        Flex Item
-      </span>
+    >
+      <h3>
+        Flex Amount: { flexAmount }
+      </h3>
     </div>
   )
 }
