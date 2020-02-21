@@ -1,5 +1,5 @@
 import React from 'react';
-import FlexItem from '../flex-item/';
+import FlexItemGroup from '../flex-item-group';
 
 const styles = {
   flexContainer: {
@@ -12,11 +12,11 @@ function FlexContainer() {
     <div 
       className="flex-container f1 fxbx fg3 spc-ctr" 
       style={styles.flexContainer}>
-      <FlexItem flex="f1" alertMe={() => alert('hello youtube and twitch') }/>
-      <FlexItem flex="f2"/>
-      <FlexItem flex="f1"/>
-      <FlexItem flex="f3"/>
-      <FlexItem flex="f2"/>
+      <FlexItemGroup flex="f1" alertMe={() => alert('hello youtube and twitch') }/>
+      <FlexItemGroup flex="f2"/>
+      <FlexItemGroup flex="f1"/>
+      <FlexItemGroup flex="f3"/>
+      <FlexItemGroup flex="f2"/>
     </div>
   )
 }
