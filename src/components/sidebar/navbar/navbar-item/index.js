@@ -1,4 +1,5 @@
 import React from 'react';
+import navItemStyles from './navbar-item.css';
 
 const styles = {
   navItem: {
@@ -12,7 +13,7 @@ const styles = {
 
 function NavItem({text, targetLocation}) {
   return (
-    <a href={targetLocation} style={styles.navItem}>
+    <a href={targetLocation} style={styles.navItem, navItemStyles}>
       {text}
     </a>
   )

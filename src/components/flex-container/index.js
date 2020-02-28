@@ -3,7 +3,8 @@ import FlexItemGroup from '../flex-item-group';
 
 const styles = {
   flexContainer: {
-    'height': '100%',
+    height: '100%',
+    marginRight: '1rem',
   }
 }
 

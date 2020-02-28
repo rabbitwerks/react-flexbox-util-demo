@@ -1,5 +1,6 @@
 import React from 'react';
 import NavbarMain from './navbar/navbar-main';
+import ItemAmounter from './item-amounter';
 
 const styles = {
   sidebar: {
@@ -12,6 +13,7 @@ function Sidebar() {
   return (
   <div className="sidebar fxbx fd-c" style={ styles.sidebar }>
     <NavbarMain />
+    <ItemAmounter />
   </div>
   )
 }

@@ -17,7 +17,11 @@ const navLinks = [
   },
 ]
 
-const navMenuItems = navLinks.map(navItem => <NavItem text={ navItem.text } targetLocation={ navItem.targetLocation } />); 
+const navMenuItems = navLinks.map((navItem, index) => <NavItem 
+  text={ navItem.text } 
+  targetLocation={ navItem.targetLocation }
+  key={ index }
+/>); 
 
 function NavbarMain() {
   return (
