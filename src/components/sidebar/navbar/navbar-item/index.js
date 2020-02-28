@@ -4,6 +4,7 @@ const styles = {
   navItem: {
     color: '#ccc',
     margin: '.5rem 0',
+    paddingBottom: '.5rem',
     borderBottom: '2px solid #ccc',
     textDecoration: 'none',
   }
